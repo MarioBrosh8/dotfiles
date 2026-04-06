@@ -5,5 +5,13 @@ theme = Matte Black
 font-family = JetBrains Mono NL
 font-size = 14
 
+# Ligatures
+font-feature = liga
+font-feature = calt
+font-feature = dlig
+
+# Italics
+font-synthetic-style = italic
+
 
 

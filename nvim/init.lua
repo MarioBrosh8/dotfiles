@@ -99,6 +99,13 @@ vim.g.mapleader = ' '
 vim.g.have_nerd_font = true
 vim.opt.guifont = "JetBrains Mono NL:h14"
 
+-- Italic highlighting for Rust keywords
+vim.api.nvim_set_hl(0, "@keyword", { italic = true })
+vim.api.nvim_set_hl(0, "@function", { italic = true })
+vim.api.nvim_set_hl(0, "StorageClass", { italic = true })
+vim.api.nvim_set_hl(0, "Type", { italic = true })
+vim.api.nvim_set_hl(0, "Structure", { italic = true })
+
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
