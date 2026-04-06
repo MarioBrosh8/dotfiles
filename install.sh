@@ -36,6 +36,12 @@ link_file() {
         fi
     fi
     
+    # Check if source exists
+    if [[ ! -e "$src" ]]; then
+        echo "Warning: Source does not exist, skipping: $src"
+        return 1
+    fi
+    
     # Create symlink
     echo "Linking: $dest -> $src"
     ln -s "$src" "$dest"
