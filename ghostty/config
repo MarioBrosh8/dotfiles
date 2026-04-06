@@ -2,7 +2,8 @@
 theme = Matte Black
 
 # JetBrains Mono Font
-font-family = JetBrains Mono
+font-family = JetBrains Mono NL
+font-size = 14
 
 
 
