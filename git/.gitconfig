@@ -1,0 +1,37 @@
+[user]
+    name = Mario Valdez
+    email = valdezmario6@gmail.com
+
+[core]
+    editor = nvim
+    excludesfile = ~/.gitignore_global
+
+[pull]
+    rebase = false
+
+[push]
+    default = current
+
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = log --graph --oneline --decorate --all
+    amend = commit --amend --no-edit
+
+[diff]
+    tool = nvimdiff
+
+[merge]
+    tool = nvimdiff
+    conflictstyle = diff3
+
+[color]
+    ui = auto
+
+[credential "https://github.com"]
+    helper = osxkeychain
