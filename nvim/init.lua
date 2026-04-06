@@ -97,6 +97,7 @@ vim.g.maplocalleader = ' '
 
 vim.g.mapleader = ' '
 vim.g.have_nerd_font = true
+vim.opt.guifont = "JetBrains Mono NL:h14"
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
