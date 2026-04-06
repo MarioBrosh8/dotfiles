@@ -1,0 +1,20 @@
+# Neovim
+nvim/lazy-lock.json
+nvim/.git/
+nvim/lua/custom/*.lua
+nvim/data/
+nvim/plugged/
+
+# Oh My Zsh internal git
+zsh/.oh-my-zsh/.git/
+zsh/.oh-my-zsh/tools/detect-init.vim
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+*.swp
+*.swo
+*~
